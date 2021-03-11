@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
-void convto(char* s, int n, int b)
+void convto(char* s, int n, int b);
 int main()
 {
 	char s[80];
