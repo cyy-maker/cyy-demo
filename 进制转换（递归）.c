@@ -12,6 +12,7 @@ int main()
 	scanf_s("%d", &base);
 	convto(s, old, base);
 	printf("%s\n", s);
+	getchar();
 	return 0;
 }
 void convto(char* s, int n, int b)
